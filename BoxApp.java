@@ -1,4 +1,4 @@
-public class AppBox {
+public class BoxApp {
     public static void main(String[] args) {
         Box aBox = new Box();
         Box bBox = new Box(1, 2, 3);
