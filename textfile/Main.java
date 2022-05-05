@@ -1,6 +1,7 @@
 package textfile;
 
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -9,13 +10,19 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         demoFileWriter();
-        demoFileReader();
+        //demoFileReader();
 
     }
 
     public static void demoFileWriter() {
+        System.out.println(System.getProperty("user.home"));
+        File f = new File(System.getProperty("user.home"), "output3.txt");
+        System.out.println(f.getAbsoluteFile());
+        if (f.exists()) {
+            System.out.println("this file is already!!");
+        }
         try {
-            FileWriter w = new FileWriter("c:\\Users\\tanin\\Test\\textfile\\output.txt");
+            FileWriter w = new FileWriter(f);
             w.write(unicodeTable('a', 'z'));
             w.close();
         } catch (IOException e) {
