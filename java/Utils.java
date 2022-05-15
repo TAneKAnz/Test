@@ -1,3 +1,4 @@
+package java;
 public class Utils {
     public static float vatrate = 0.07f;  //static field
 

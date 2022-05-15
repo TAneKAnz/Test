@@ -1,3 +1,4 @@
+package java;
 public class Box {
     private double w, d ,h;
 

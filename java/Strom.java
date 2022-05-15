@@ -1,3 +1,4 @@
+package java;
 public class Strom {
     public static String stromType(int speed) {
         String stromName = "";

@@ -1,3 +1,4 @@
+package java;
 public class ContactApp {
     public static void main(String[] args) {
         Contact c1 = new Contact();

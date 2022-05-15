@@ -1,4 +1,4 @@
-package arrayList;
+package java.arrayList;
 public class Drink {
     private String menu, category;
     private int price;

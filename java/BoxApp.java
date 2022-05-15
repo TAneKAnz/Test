@@ -1,3 +1,4 @@
+package java;
 public class BoxApp {
     public static void main(String[] args) {
         Box aBox = new Box();

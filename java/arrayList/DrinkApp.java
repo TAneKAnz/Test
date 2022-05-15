@@ -1,4 +1,4 @@
-package arrayList;
+package java.arrayList;
 import java.util.ArrayList;
 
 public class DrinkApp {

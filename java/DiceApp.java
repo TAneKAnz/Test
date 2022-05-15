@@ -1,3 +1,4 @@
+package java;
 public class DiceApp {
     public static void main(String[] args) {
         Dice d = new Dice();
