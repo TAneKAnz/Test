@@ -1,3 +1,4 @@
+package java.phoneInterface;
 public interface IPhone {
     void call(String phoneNumber);
     void hangup();

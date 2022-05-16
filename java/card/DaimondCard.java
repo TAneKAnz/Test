@@ -1,18 +1,20 @@
 package java.card;
 
-public final class PlatinumCard extends MemberCard {
+
+public class DaimondCard extends MemberCard {
     @Override
     public float discount(float amount) {
-        return amount * .05f;
+        return .2f;
     }
 
     @Override
     public float rewardPoint() {
-        return 3f;
+        return 5f;
     }
 
     @Override
     public boolean accessLounge() {
         return true;
     }
+    
 }

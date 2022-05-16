@@ -1,4 +1,5 @@
 package java.card;
+
 public abstract class MemberCard {
     //private field
     private String firstName, lastName;
@@ -39,8 +40,9 @@ public abstract class MemberCard {
     }
 
     public abstract float rewardPoint();                    //must implement this method in subclass
+    public abstract boolean accessLounge();
 
-    public final float calcPoint(float amount) {            //subclass acnt override this method
+    public final float calcPoint(float amount) {            //subclass cant override this method
         return (int)((amount / 20) * rewardPoint());
     }
 
