@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+    <title>TAneKAnz</title>
+    <link rel="icon" type="image/x-icon" href="/pic/favicon.ico">
+    <style>
+        
+        h1{
+            color: aquamarine;
+            font-size: 20px;
+        }
+        body{
+            background-color: rgb(159, 16, 0);
+            background-image: url('/pic/profile.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        /*
+        a:link{
+            color: darkblue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgba(30, 29, 94, 0.932);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover{
+            color: crimson;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        a:active{
+            color: burlywood;
+            background-color: transparent;
+            text-decoration: underline;
+        }*/
+        #somethingsblue{
+            color:rgb(103, 21, 21);
+            font-size: small;
+        }
+        #backgroundgray{
+            color: aliceblue;
+            background-color: black;
+            
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            background-color: aliceblue;
+        }
+        td, th{
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+
+        }
+        tr:hover{
+            background-color: #D6EEEE;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="http://www.google.com">Home</a></li>
+        <li><a href="http://www.google.com">Resource</a></li>
+        <li><a href="http://www.google.com">Media</a></li>
+        <li><a href="http://www.google.com">About</a></li>
+        <li><a href="http://www.google.com">Help</a></li>
+        <li><a href="http://www.google.com">Help</a></li>
+    </ul>
+    <center>
+    <h1  style="color:rgb(79, 152, 7);">TAneKAnz</h1><hr>     
+    <h2>I love saimai.</h2>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="/pic/doraemon3.jfif">
+        <source media="(min-width: 465px)" srcset="/pic/doraemon2.jfif">
+        <img src="/pic/doraemon.jfif" alt="doraemon" style="width:auto" usemap="#doramap">
+    </picture>
+    
+    <map name="doramap">
+        <area shape="circle" coords="90,100,60" href="http://www.google.com" onclick="myfunction()">
+    </map>
+    <script>
+        function myfunction() {
+            alert("you click a doraemon !!");
+        }
+    </script>
+
+    <p id="somethingsblue">
+        Im junior computer engineer.
+    </p>
+    <a href="http://www.google.com">Click Here!!</a>
+    </center>
+
+    
+
+    <blockquote id="backgroundgray" cite="https://en.wikipedia.org/wiki/Doraemon">
+        Doraemon (Japanese: ドラえもん [doɾaemoɴ]) 
+        is a Japanese manga series written and illustrated by Fujiko F. Fujio. 
+        The manga was first serialized in December 1969, 
+        with its 1,345 individual chapters compiled into 45 tankōbon volumes 
+        and published by Shogakukan from 1970 to 1996. 
+        The story revolves around an earless robotic cat named Doraemon, 
+        who travels back in time from the 22nd century to aid a boy named Nobita Nobi.
+    </blockquote>
+
+
+    <table>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+        </tr>
+        <tr>
+            <td>saimai</td>
+            <td>tan</td>
+        </tr>
+    </table>
+
+    <a href="/pic/doraemon.jfif" class="image">
+        <img alt="Doraemon volume 1 cover.jpg" src="//upload.wikimedia.org/wikipedia/en/thumb/c/c8/Doraemon_volume_1_cover.jpg/220px-Doraemon_volume_1_cover.jpg" decoding="async" width="220" height="358" srcset="//upload.wikimedia.org/wikipedia/en/c/c8/Doraemon_volume_1_cover.jpg 1.5x" data-file-width="250" data-file-height="407">
+    </a>
+</body>
+</html>
